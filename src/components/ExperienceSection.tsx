@@ -5,12 +5,12 @@ const experiences = [
   {
     role: "Software Engineer",
     company: "Bonbloc Technologies, Chennai",
-    period: "June 2025 – Present",
+    period: "Jun 2025 – Feb 2026",
     points: [
-      "Contributing to end-to-end SaaS product development by translating product flows and Figma designs into scalable React-based UI implementations.",
-      "Developing responsive interfaces using React.js (ES6+, Hooks) and integrating REST APIs for dynamic data handling.",
-      "Collaborating with backend teams to define API contracts and ensure seamless frontend-backend integration.",
-      "Building domain-driven modules and dashboards across transportation, finance, and analytics systems.",
+      "Designed and developed scalable React.js dashboards and product modules for SaaS platforms.",
+      "Translated Figma designs and product workflows into reusable UI components using React Hooks and modern frontend practices.",
+      "Integrated REST APIs, authentication systems, and role-based access control for dynamic application workflows.",
+      "Collaborated with product, design, and backend teams in Agile Scrum environment using Jira.",
     ],
   },
   {
@@ -18,9 +18,10 @@ const experiences = [
     company: "BT Infotech, Chennai",
     period: "Aug 2024 – May 2025",
     points: [
-      "Developed and enhanced client-facing web applications with a focus on functional and scalable solutions.",
-      "Implemented API integrations, data handling logic, and payment gateway workflows for business websites.",
-      "Managed code versions using Git and supported application deployments on platforms like Vercel.",
+      "Developed responsive web applications using React.js, JavaScript, and TailwindCSS.",
+      "Implemented REST API integrations and dynamic frontend logic to support client platforms.",
+      "Built and customized WordPress websites with plugin integrations and feature enhancements.",
+      "Collaborated with development teams using Git version control across multiple service-based projects.",
     ],
   },
   {
@@ -28,9 +29,10 @@ const experiences = [
     company: "Ennuviz Labs & Technology, Chennai",
     period: "Jun 2023 – Jun 2024",
     points: [
-      "Engaged with clients to gather requirements, discuss workflows, and define functional flows using Figma-based designs.",
-      "Implemented website revamps, headless CMS solutions (Sanity with Next.js), and handled website migrations.",
-      "Collaborated with teams to maintain, enhance, and deploy applications across different hosting environments.",
+      "Collaborated with clients to gather requirements and convert Figma designs into functional web interfaces.",
+      "Implemented website revamps using Next.js integrated with Sanity Headless CMS.",
+      "Managed application deployments using Vercel hosting and Git-based development workflows.",
+      "Worked with US-based teams to deliver scalable frontend solutions for client platforms.",
     ],
   },
   {
@@ -38,9 +40,9 @@ const experiences = [
     company: "Reach Accountant, Chennai",
     period: "Apr 2021 – Mar 2023",
     points: [
-      "Contributed to the development of a product-based automation and billing software platform.",
-      "Built and enhanced application modules using Core PHP, Yii2 framework, MySQL, and AJAX.",
-      "Worked closely with product and QA teams to implement features and resolve issues.",
+      "Developed backend modules for a financial analysis and automation billing software platform.",
+      "Implemented GST calculations, billing workflows, and invoice management features.",
+      "Integrated REST APIs and AJAX-based interactions to support dynamic application operations.",
     ],
   },
   {

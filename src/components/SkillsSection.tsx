@@ -83,27 +83,27 @@ import { Code2, Server, Palette, Wrench } from "lucide-react";
 const categories = [
   {
     key: "frontend",
-    title: "Frontend",
+    title: "Frontend Development",
     icon: Code2,
-    skills: ["React.js", "JavaScript (ES6+)", "HTML", "CSS", "Dashboard Development", "SaaS Application Development", "Product Flow Analysis"],
+    skills: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "TailwindCSS", "Bootstrap", "Responsive Web Design"],
   },
   {
     key: "backend",
-    title: "Backend",
+    title: "Frameworks & CMS",
     icon: Server,
-    skills: ["REST API Integration", "Data Handling", "Payment Gateway Integration", "CMS-Based Development"],
+    skills: ["Next.js", "WordPress", "Sanity Headless CMS"],
   },
   {
     key: "design",
-    title: "Design Tools",
+    title: "Backend & Database",
     icon: Palette,
-    skills: ["Figma", "Adobe Illustrator", "Wireframing & Flow Design"],
+    skills: ["PHP", "Laravel", "Yii2 Framework", "Python (Basic)", "MySQL"],
   },
   {
     key: "tools",
-    title: "Tools & Platforms",
+    title: "Tools & Workflow",
     icon: Wrench,
-    skills: ["Git", "GitHub", "Vercel Deployment", "Agile / Sprint-Based Development"],
+    skills: ["Git", "GitHub", "SVN", "Jira", "Asana", "Agile / Scrum", "Figma", "Adobe Illustrator", "Vercel"],
   },
 ];
 

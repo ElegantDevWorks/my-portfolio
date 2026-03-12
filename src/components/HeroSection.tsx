@@ -23,11 +23,12 @@ const HeroSection = () => {
               <br />
               <span className="gradient-text-accent">Mani</span>
             </h1>
-            <p className="font-mono text-sm text-muted-foreground mb-6">Software Engineer</p>
+            <p className="font-mono text-sm text-muted-foreground mb-6">SFrontend Developer (React.js) | SaaS Applications | Dashboard Development</p>
             <p className="text-lg text-muted-foreground max-w-xl leading-relaxed mb-10">
-              Software Engineer with 4.5+ years of experience building scalable web and SaaS applications.
+              {/* Software Engineer with 4.5+ years of experience building scalable web and SaaS applications.
               Specialized in React development, dashboard interfaces, and API integrations across finance,
-              transportation, and analytics domains.
+              transportation, and analytics domains. */}
+              I’m a React.js developer passionate about building modern web applications. With over 4.5 years of experience, I’ve worked on SaaS platforms, dashboards, and client applications across different industries. I enjoy solving real product problems, building reusable UI components, and creating smooth user experiences through clean and scalable frontend architecture.
             </p>
 
             <div className="flex flex-wrap gap-3 mb-12">
@@ -43,7 +44,7 @@ const HeroSection = () => {
             </div>
 
             <div className="flex items-center gap-5">
-              <a href="https://github.com/dummy" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+              <a href="#" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Github size={20} />
               </a>
               <a href="https://www.linkedin.com/in/prabha-karan-m/" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">

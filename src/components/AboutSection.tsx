@@ -17,19 +17,21 @@ const AboutSection = () => {
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-8">About Me</h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-1 gap-8">
             <div className="space-y-5 text-muted-foreground leading-relaxed">
-              <p>
-                Software Engineer with 4.5+ years of experience working in product-based and service-driven
-                environments.
+              {/* <p>
+                Software Engineer with 4.5+ years of experience in product-based and service-driven environments.
               </p>
               <p>
-                Experienced in building end-to-end web and SaaS applications including product flow analysis,
-                UI development, dashboard interfaces, and API integrations.
+                Experienced in building end-to-end web and SaaS applications, including product flow analysis, 
+                requirement discussions, UI collaboration, and REST API integrations.
               </p>
               <p>
-                Strong experience building React-based dashboards, CMS-driven platforms, and scalable frontend
-                systems while collaborating closely with backend teams.
+                Strong background in developing React-based dashboards and CMS-driven platforms, working closely 
+                with backend teams to deliver scalable solutions across finance, transportation, and analytics domains.
+              </p> */}
+              <p>
+                Frontend Developer with 4.5+ years of experience building scalable web applications across SaaS products, enterprise systems, and client platforms. <br/> Specialized in developing React.js dashboards, admin panels, and API-driven user interfaces, transforming product workflows and Figma designs into production-ready components. <br/>Experienced with Next.js, headless CMS architecture, and modern frontend development practices. Proven ability to collaborate with cross-functional teams in Agile environments delivering applications across finance, AI, logistics, and education domains.
               </p>
             </div>
 

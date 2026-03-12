@@ -15,11 +15,12 @@ const EducationSection = () => {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl sm:text-4xl font-bold mb-12">Education & Certifications</h2>
+          {/* <h2 className="text-3xl sm:text-4xl font-bold mb-12">Education & Certifications</h2> */}
+          <h2 className="text-3xl sm:text-4xl font-bold mb-12">Core Competencies & Certifications</h2>
 
           <div className="grid md:grid-cols-2 gap-6">
             {/* Education */}
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.1 }}
@@ -34,6 +35,29 @@ const EducationSection = () => {
                 <p className="text-sm text-primary">JayaSurya College of Engineering</p>
                 <span className="font-mono text-xs text-muted-foreground">Graduated: May 2016</span>
               </div>
+            </motion.div> */}
+
+
+            {/* Certifications */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={inView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="glass-hover rounded-lg p-6"
+            >
+              <div className="flex items-center gap-3 mb-5">
+                <Award size={18} className="text-primary" />
+                <h3 className="font-semibold">Certifications</h3>
+              </div>
+              <ul className="space-y-3">
+                {["SaaS Application Development", "Dashboard & Admin Panel Development","Component-Based Frontend Architecture",
+                  "REST API Integration", "Headless CMS Implementation", "Client Requirement Analysis", "Cross-Team Agile Collaboration"].map((cert) => (
+                  <li key={cert} className="text-sm text-muted-foreground flex gap-2">
+                    <span className="text-primary shrink-0">›</span>
+                    {cert}
+                  </li>
+                ))}
+              </ul>
             </motion.div>
 
             {/* Certifications */}
@@ -64,3 +88,6 @@ const EducationSection = () => {
 };
 
 export default EducationSection;
+
+
+

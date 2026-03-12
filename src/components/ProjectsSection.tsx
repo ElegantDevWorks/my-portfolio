@@ -96,29 +96,34 @@ import { ExternalLink, Github, ChevronLeft, ChevronRight } from "lucide-react";
 
 const projects = [
   {
-    title: "SaaS Analytics Dashboard",
-    description: "React-based dashboard with API integrations and dynamic data visualization for real-time analytics tracking across transportation, finance, and analytics systems.",
-    tech: ["React", "REST API", "Chart.js", "Tailwind CSS"],
+    title: "Finfit – Financial SaaS Platform",
+    description: "Developed analytics dashboards and financial monitoring modules enabling real-time data visualization and reporting features.",
+    tech: ["React.js", "JavaScript", "Chart.js", "Tailwind CSS", "REST APIs"],
   },
   {
-    title: "ChinmayaGita Website",
-    description: "Educational website built from scratch by coordinating with the client on requirements and content structure. Implemented using WordPress and Elementor with API integrations and AJAX.",
-    tech: ["WordPress", "Elementor", "API Integration", "AJAX", "MySQL"],
+    title: "PixelAI & Carryex – AI Design Platform / Transport Management System",
+    description: "Built interactive UI modules for an AI-powered design platform and developed dashboards supporting logistics workflow management and operational data visualization.",
+    tech: ["React.js", "JavaScript", "Tailwind CSS", "REST APIs"],
   },
   {
-    title: "Automation & Billing Software",
-    description: "Product-based automation and billing platform with workflows supporting multiple business types and automated GST calculations for improved tax accuracy.",
-    tech: ["Core PHP", "Yii2", "MySQL", "AJAX"],
+    title: "Client Websites – Service-Based Web Platforms",
+    description: "Developed and maintained multiple client websites implementing responsive UI components, API integrations, and WordPress customizations.",
+    tech: ["React.js", "Javascript", "WordPress", "Python", "TailwindCSS", "REST APIs"],
   },
   {
-    title: "Client Websites & Integrations",
-    description: "Developed and managed multiple client-facing websites with API-based data exchange and payment gateway functionality.",
-    tech: ["React", "Payment Gateway", "REST API", "Vercel"],
+    title: "ChinmayaGita – Educational Platform",
+    description: "Developed and maintained a WordPress-based educational website including AJAX interactions, MySQL database handling, and website migration.",
+    tech: ["WordPress", "AJAX", "MySQL", "REST APIs"],
   },
   {
-    title: "CMS Website Platform",
-    description: "Content-driven platform with headless CMS integration using Sanity and Next.js for dynamic content delivery and website migrations.",
-    tech: ["Next.js", "Sanity CMS", "React", "Tailwind CSS"],
+    title: "Client Website Revamps – Headless CMS Platforms",
+    description: "Modernized client websites by implementing Next.js frontend architecture with Sanity CMS for scalable content management.",
+    tech: ["Next.js", "Sanity CMS", "Vercel", "JavaScript", "Git"],
+  },
+  {
+    title: "Automation Billing & Financial Analysis Platform",
+    description: "Product-based platform used by service centers, restaurants, and retail businesses to manage billing automation and financial reporting.",
+    tech: ["Core PHP", "Yii2 Framework", "MySQL", "Bootstrap", "AJAX", "REST APIs", "Asana"],
   },
 ];
 
