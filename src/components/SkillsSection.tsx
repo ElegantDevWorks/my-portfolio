@@ -85,7 +85,7 @@ const categories = [
     key: "frontend",
     title: "Frontend Development",
     icon: Code2,
-    skills: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "TailwindCSS", "Bootstrap", "Responsive Web Design"],
+    skills: ["React.js (Hooks, Component Architecture)", "JavaScript (ES6+)", "HTML5", "CSS3", "TailwindCSS", "Bootstrap", "Responsive Web Design"],
   },
   {
     key: "backend",
@@ -97,13 +97,13 @@ const categories = [
     key: "design",
     title: "Backend & Database",
     icon: Palette,
-    skills: ["PHP", "Laravel", "Yii2 Framework", "Python (Basic)", "MySQL"],
+    skills: ["Node.js", "PHP", "MongoDB", "MySQL"],
   },
   {
     key: "tools",
     title: "Tools & Workflow",
     icon: Wrench,
-    skills: ["Git", "GitHub", "SVN", "Jira", "Asana", "Agile / Scrum", "Figma", "Adobe Illustrator", "Vercel"],
+    skills: ["Git", "GitHub", "Jira", "Agile / Scrum", "Figma", "Vercel"],
   },
 ];
 

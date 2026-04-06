@@ -16,7 +16,7 @@ const experiences = [
   {
     role: "Web Developer",
     company: "BT Infotech, Chennai",
-    period: "Aug 2024 – May 2025",
+    period: "Jul 2024 – Jun 2025",
     points: [
       "Developed responsive web applications using React.js, JavaScript, and TailwindCSS.",
       "Implemented REST API integrations and dynamic frontend logic to support client platforms.",
@@ -54,14 +54,14 @@ const experiences = [
       "Coordinated with senior IT teams to ensure smooth day-to-day IT operations.",
     ],
   },
-  {
-    role: "Production Engineer",
-    company: "Sakthi Engineering Works, Chennai",
-    period: "Jun 2016 – Sep 2018",
-    points: [
-      "Supported production operations by monitoring processes, ensuring quality standards and coordinating with cross-functional teams.",
-    ],
-  },
+  // {
+  //   role: "Production Engineer",
+  //   company: "Sakthi Engineering Works, Chennai",
+  //   period: "Jun 2016 – Sep 2018",
+  //   points: [
+  //     "Supported production operations by monitoring processes, ensuring quality standards and coordinating with cross-functional teams.",
+  //   ],
+  // },
 ];
 
 const ExperienceSection = () => {

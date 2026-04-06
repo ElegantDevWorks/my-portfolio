@@ -50,8 +50,13 @@ const EducationSection = () => {
                 <h3 className="font-semibold">Certifications</h3>
               </div>
               <ul className="space-y-3">
-                {["SaaS Application Development", "Dashboard & Admin Panel Development","Component-Based Frontend Architecture",
-                  "REST API Integration", "Headless CMS Implementation", "Client Requirement Analysis", "Cross-Team Agile Collaboration"].map((cert) => (
+                {["Scalable SaaS Application Development", 
+                  "React-Based Component Architecture",
+                  "Dashboard & Admin Panel Development",
+                  "RESTful API Integration & Data Handling", 
+                  "Headless CMS Architecture (Sanity)", 
+                  "UI Implementation from Figma Designs", 
+                  "Agile Development & Cross-Team Collaboration"].map((cert) => (
                   <li key={cert} className="text-sm text-muted-foreground flex gap-2">
                     <span className="text-primary shrink-0">›</span>
                     {cert}

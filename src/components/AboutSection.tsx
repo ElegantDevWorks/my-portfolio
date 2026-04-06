@@ -31,14 +31,14 @@ const AboutSection = () => {
                 with backend teams to deliver scalable solutions across finance, transportation, and analytics domains.
               </p> */}
               <p>
-                Frontend Developer with 4.5+ years of experience building scalable web applications across SaaS products, enterprise systems, and client platforms. <br/> Specialized in developing React.js dashboards, admin panels, and API-driven user interfaces, transforming product workflows and Figma designs into production-ready components. <br/>Experienced with Next.js, headless CMS architecture, and modern frontend development practices. Proven ability to collaborate with cross-functional teams in Agile environments delivering applications across finance, AI, logistics, and education domains.
+                Frontend Engineer with 6+ years of experience building scalable web applications across SaaS products, enterprise systems, and client platforms. Strong expertise in React.js, including hooks-based architecture, reusable component design, and API-driven UI development. Experienced in developing dashboards and admin panels, translating complex product workflows and Figma designs into production-ready applications. Proficient in Next.js, headless CMS architectures, and modern frontend practices, with a proven track record of delivering high-performance applications in Agile, cross-functional environments.
               </p>
             </div>
 
             <div className="glass-hover rounded-lg p-6 space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-sm text-muted-foreground">Years of Experience</span>
-                <span className="font-mono text-2xl font-bold text-foreground">4.5+</span>
+                <span className="font-mono text-2xl font-bold text-foreground">6+</span>
               </div>
               <div className="h-px bg-border" />
               <div className="flex items-center justify-between">
@@ -48,7 +48,7 @@ const AboutSection = () => {
               <div className="h-px bg-border" />
               <div className="flex items-center justify-between">
                 <span className="text-sm text-muted-foreground">Technologies</span>
-                <span className="font-mono text-2xl font-bold text-foreground">15+</span>
+                <span className="font-mono text-2xl font-bold text-foreground">10+</span>
               </div>
             </div>
           </div>
