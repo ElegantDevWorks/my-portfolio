@@ -39,7 +39,7 @@ const HeroSection = () => {
                 <a href="#contact">Contact Me</a>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="/Resume.pdf" download>Download Resume</a>
+                <a href="/PrabhakaranMani_Frontend_Developer.pdf" download>Download Resume</a>
               </Button>
             </div>
 
